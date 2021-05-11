@@ -6,5 +6,8 @@
   },
   "scripts": {
     "start": "lerna run start --parallel"
+  },
+  "dependencies": {
+    "codefield": "^2.0.4"
   }
 }
