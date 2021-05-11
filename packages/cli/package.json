@@ -1,6 +1,6 @@
 {
   "name": "codefield",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "",
   "files": [
     "dist"
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@codefield/local-client": "^2.0.1"
+    "@codefield/local-client": "^2.0.2"
   },
   "devDependencies": {
-    "@codefield/local-api": "^2.0.1",
+    "@codefield/local-api": "^2.0.2",
     "@types/node": "^15.0.1",
     "commander": "^7.2.0",
     "esbuild": "0.8.26",
