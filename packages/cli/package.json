@@ -1,6 +1,6 @@
 {
   "name": "codefield",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "",
   "bin": "dist/index.js",
   "publishConfig": {
@@ -17,14 +17,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@codefield/local-client": "^2.0.6"
+    "@codefield/local-client": "^2.0.7"
   },
   "devDependencies": {
-    "@codefield/local-api": "^2.0.6",
+    "@codefield/local-api": "^2.0.7",
     "@types/node": "^15.0.1",
     "commander": "^7.2.0",
     "esbuild": "0.8.26",
     "typescript": "^4.2.4"
   },
-  "gitHead": "f2d59788755453fc605dc505bea4fa22cee3645f"
+  "gitHead": "06684ac896cf28c5b0d4426e891e00b9c720147b"
 }
