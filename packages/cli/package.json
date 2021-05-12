@@ -1,14 +1,14 @@
 {
   "name": "codefield",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "",
-  "files": [
-    "dist"
-  ],
+  "bin": "dist/index.js",
   "publishConfig": {
     "access": "public"
   },
-  "bin": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "tsc --watch --preserveWatchOutput",
     "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
@@ -17,14 +17,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@codefield/local-client": "^2.0.5"
+    "@codefield/local-client": "^2.0.6"
   },
   "devDependencies": {
-    "@codefield/local-api": "^2.0.5",
+    "@codefield/local-api": "^2.0.6",
     "@types/node": "^15.0.1",
     "commander": "^7.2.0",
     "esbuild": "0.8.26",
     "typescript": "^4.2.4"
   },
-  "gitHead": "f9df6f92de848abbbe0d194ded4b3c03bf3df13c"
+  "gitHead": "f2d59788755453fc605dc505bea4fa22cee3645f"
 }
