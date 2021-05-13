@@ -5,8 +5,7 @@
     "lerna": "^3.22.1"
   },
   "scripts": {
-    "start": "lerna run start --parallel",
-    "build": "npm run build"
+    "start": "lerna run start --parallel"
   },
   "dependencies": {
     "codefield": "^2.0.4"
