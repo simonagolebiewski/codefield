@@ -6,7 +6,7 @@
   },
   "scripts": {
     "start": "lerna run start --parallel",
-    "build": "lerna run build --npm-client=npm"
+    "build": "lerna run build"
   },
   "dependencies": {
     "codefield": "^2.0.4"
